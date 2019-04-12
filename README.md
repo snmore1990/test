@@ -1,46 +1,91 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-    <head>
-        <style>
-            *{
-                box-sizing: border-box;
-            }
-            .col-6{
-                width: 50%;
-            }
-            .new-arrival{
-                display: flex;
-                border: 1px solid #ccc;
-            }
-            .product{
-                padding:40px;
-                display: flex;
-                flex-wrap: wrap;
-                place-content: center;
-                width: 100%;
-            }
-            .product-container-2 .product {
-                height: 50%;
-            }
-            .new-arrival .product-container-1{
-                border-right: 1px solid #ccc;
-                display: flex;
-            }
-            .new-arrival .product-container-2 .product:first-child{
-                border-bottom: 1px solid #ccc;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="new-arrival">
-                <div class="product-container-1 col-6">
-                    <div class="product">text text kauywdu awldhua ydiuwaid uwaiduiwa ud
-                    </div>
-                </div>
-                <div class="product-container-2 col-6">
-                    <div class="product">text</div>
-                    <div class="product">text</div>
-                </div>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+.row {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+.column {
+  flex: 50%;
+  border: 1px solid red;
+}
+[class^='product']{
+    padding:50px;
+}
+.product-2,.product-3{
+    height:50%;
+}
+.product-2{
+    border-bottom: 1px solid red;
+}
+.product-1{
+    text-align: center;
+}
+.img-container{
+    margin: 0 auto;
+    background: #ccc;
+}
+.img-container img{
+    width: 100%;
+}
+.product-1 .img-container{
+    width: 400px;
+    height: 400px;
+}
+.product-2 .img-container, .product-3 .img-container{
+    width: 200px;
+    height: 200px;
+}
+.col-6{
+    width: 50%;
+    float: left;
+}
+</style>
+</head>
+<body>
+<div class="row">
+  <div class="column">
+        <div class="product-1">
+            <div class="img-container">
+                <img src="" class="img-fluid">
+            </div>
+            <h2>Product Name XYZ awiudoiauwdouw</h2>
+            <p>Price Information</p>
+            <button>Book Now</button>
+            <button>Buy Now</button>
         </div>
-    </body>
+  </div>
+  <div class="column">
+  <div class="product-2">
+    <div class="img-container col-6">
+        <img src="" class="img-fluid">
+    </div>
+    <div class="product-info col-6">
+        <h2>Product Name</h2>
+        <p>Price Information</p>
+        <button>Book Now</button>
+        <button>Buy Now</button>
+    </div>
+    </div>
+  <div class="product-3">
+    <div class="img-container col-6">
+        <img src="" class="img-fluid">
+    </div>
+    <div class="product-info col-6">
+        <h2>Product Name</h2>
+        <p>Price Information</p>
+        <button>Book Now</button>
+        <button>Buy Now</button>
+    </div>
+    </div>
+  </div>
+</div>
+
+</body>
 </html>
