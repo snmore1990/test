@@ -1,0 +1,50 @@
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4">
+      <h6>MRP</h6>
+      <p><del><i class="fa fa-rupee">439,900.00</i></del></p>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4">
+      <h6>Our Client</h6>
+      <p><i class="fa fa-rupee">69,900</i></p>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4">
+      <h6>Extended warrenty</h6>        
+      <p><input type="checkbox" name="" /> <i class="fa fa-rupee">899</i></p>
+    </div>
+  </div>
+  
+  <div class="row">
+	<div class="col-lg-8 col-md-8 col-sm-12">
+      <p><input type="checkbox" name="" />Additional exchange offer upto <i class="fa fa-rupee">2000/-</i></p>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-12">
+      <p>Exchange start from <i class="fa fa-rupee">2999</i></p>
+    </div>
+  </div>
+  
+  <div class="row">
+	<div class="col-lg-12 col-md-12 col-sm-12"><button type="button" class="btn btn-dark">Dark</button>&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" class="btn btn-dark">Dark</button></div>
+  </div>
+  
+</div>
+
+<div class="container">
+
+	<div class="row">
+	<div class="col-lg-6 col-md-6 col-sm-12">
+			<div class="input-group mb-3">
+			  <input type="text" class="form-control" placeholder="Pinconde" aria-label="Recipient's username">
+			  <div class="input-group-append">
+				<span class="input-group-text">Check Availability</span>
+			  </div>
+			</div>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <p class="green-color" style="margin-bottom: 0;line-height: 18px;">Item can be delivered to your location</p>
+	  <p>Estimated delivery in 4-7 business days</p>
+    </div>
+	</div>
+
+</div>
